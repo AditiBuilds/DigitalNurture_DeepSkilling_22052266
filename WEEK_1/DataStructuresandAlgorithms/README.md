@@ -12,7 +12,6 @@ This project implements the **search functionality** of an e-commerce platform u
   - ✅ **Binary Search**: Fast and efficient for sorted lists.
 - Console-based interface for demonstration.
 
----
 
 # 💰 Financial Forecasting using Recursion (C#)
 
