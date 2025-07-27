@@ -1,1 +1,83 @@
+🛠️ ReactJS Hands-on Labs – 8 Tasks
+
+This repository contains code for 8 practical hands-on ReactJS tasks designed to build familiarity with key concepts such as **State**, **Props**, **Component Lifecycle**, **Styling**, and **Routing**.
+
+---
+
+## 📦 Prerequisites
+
+* Node.js (v14 or later)
+* NPM (v6 or later)
+* Visual Studio Code (recommended)
+
+---
+
+## 📁 Tasks Overview
+
+### ✅ 1. Score Calculator
+
+* **Concepts:** Functional Components, useState, Event Handling
+* **Description:** Input marks for 3 subjects and calculate total score.
+* **Component:** `ScoreCalculator.js`
+
+---
+
+### ✅ 2. BlogApp – Component Lifecycle
+
+* **Concepts:** Class Components, componentDidMount, componentDidCatch
+* **Description:** Fetch and display blog posts from JSON API.
+* **Components:** `Post.js`, `Posts.js`
+
+---
+
+### ✅ 3. Cohort Dashboard Styling
+
+* **Concepts:** CSS Modules, Conditional Inline Styling
+* **Description:** Display styled boxes for each cohort.
+* **Components:** `CohortDetails.js`, `CohortDetails.module.css`
+
+---
+
+### ✅ 4. Trainers App – React Router
+
+* **Concepts:** React Router DOM, useParams, Link, Routes
+* **Description:** Display trainer list and detail pages with routing.
+* **Files:** `Trainer.js`, `TrainersMock.js`, `TrainerList.js`, `TrainerDetail.js`
+
+---
+
+### ✅ 5. Props Demonstration with Cart
+
+* **Concepts:** Props, Default Props
+* **Description:** Display a shopping cart list with item name and price.
+* **Components:** `Cart.js`, `OnlineShopping.js`
+
+---
+
+### ✅ 6. Counter App – React State
+
+* **Concepts:** State, Constructor, Event Handling in Class Components
+* **Description:** Track number of people entered and exited a mall.
+* **Component:** `CountPeople.js`
+
+---
+
+## 🚀 Running Any Task
+
+1. Navigate to the desired task folder (e.g., `Task6_CounterApp_State`).
+2. Create a new React app or replace `src` folder with the task code.
+3. Run:
+
+   ```bash
+   npm install
+   npm start
+   ```
+
+---
+
+## 📌 Notes
+
+* All tasks use either **class-based** or **functional** components depending on the concept.
+* Styling is done via **CSS Modules** and **inline styles**.
+* Routing is implemented using `react-router-dom`.
 
